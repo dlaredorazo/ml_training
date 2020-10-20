@@ -5,9 +5,9 @@ cd ..
 cd ml_training
 git pull
 
-cp config.json ml_training/config.json
+cp ../config.json ./
 
-KEY=$(jq .preprocess_data config.json)
+KEY=$(jq .preprocess_data ./config.json)
 
 if [ $KEY = '"True"' ]; then
   python data_preprocess.py
