@@ -54,7 +54,7 @@ if __name__ == '__main__':
         training = training.drop(['Embarked', 'Sex', 'Pclass'], axis=1)
         titanic = training.join([embark_dummies_titanic, sex_dummies_titanic, pclass_dummies_titanic])
 
-        print(titanic)
+        #print(titanic)
 
         data_logger.info('Successfully pre processed data')
         print("Successfully pre processed data")

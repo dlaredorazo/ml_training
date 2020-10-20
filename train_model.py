@@ -100,7 +100,7 @@ if __name__ == '__main__':
 
         X_train, y_train = X_all, y_all
 
-        print(X_train)
+        #print(X_train)
 
     except Exception as e:
         training_logger.error('Could not load data')
