@@ -3,5 +3,5 @@
   "model_label": "rf_clf",
   "model_version": "",
   "training_type": "new",
-  "preprocess_data": "True"
+  "preprocess_data": "False"
 }
